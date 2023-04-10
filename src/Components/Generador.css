@@ -1,0 +1,79 @@
+:root {
+    --rm-yellow: #f2ca27;
+    --rm-blue: #3f88c5;
+    --rm-green: #8ad65d;
+    --rm-red: #e23735;
+  }
+  
+  body {
+    background-color: var(--rm-green);
+  }
+  
+  .personaje-card {
+    background-color: var(--rm-yellow);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .personaje-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .personaje-info h2 {
+    color: var(--rm-blue);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .personaje-info p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .btn-info {
+    background-color: var(--rm-blue);
+    border-color: var(--rm-blue);
+  }
+
+  .page-container {
+  height: calc(100vh - 60px); /* 60px es la altura del pie de página */
+  overflow-y: auto; /* Agregar scroll si hay demasiado contenido */
+}
+
+.personaje-card.is-new {
+    background-color: #8ec127;
+    color: #000;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personajes-list-container {
+    padding-bottom: 80px; /* o cualquier otro valor necesario para evitar superposición */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--rm-blue);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-container {
+    height: 100vh;
+    position: relative;
+  }

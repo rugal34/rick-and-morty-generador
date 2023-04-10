@@ -1,0 +1,41 @@
+/* Episodios */
+.container-fluid {
+    background-color: #1F1F23;
+    color: #FFF;
+    padding-top: 30px;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #27272A;
+    border-color: #4C4C4F;
+    color: #FFF;
+  }
+  
+  .card-title {
+    color: #27272A;
+  }
+  
+  .card-text {
+    color: #4c4c4f;
+  }
+  
+  /* Paginador */
+  .pagination {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .page-link {
+    background-color: #1F1F23;
+    border-color: #4C4C4F;
+    color: #FFF;
+  }
+  
+  .page-link:hover {
+    background-color: #4C4C4F;
+  }
+  
+  /* .page-item.active .page-link {
+    background-color: #4C4C4F;
+    border-color: #4C4C */
